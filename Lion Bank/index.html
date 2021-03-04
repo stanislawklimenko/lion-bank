@@ -5,234 +5,249 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/layout/normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/layout/base.css">
+    <link rel="stylesheet" href="css/blocks/logo.css">
+    <link rel="stylesheet" href="css/blocks/menu.css">
+    <link rel="stylesheet" href="css/blocks/contact.css">
+    <link rel="stylesheet" href="css/blocks/main_p.css">
+    <link rel="stylesheet" href="css/blocks/products.css">
+    <link rel="stylesheet" href="css/blocks/news.css">
+    <link rel="stylesheet" href="css/blocks/pagination.css">
+    <link rel="stylesheet" href="css/blocks/about.css">
+    <link rel="stylesheet" href="css/blocks/container_f.css">
+    <link rel="stylesheet" href="css/blocks/socials.css">
+    <link rel="stylesheet" href="css/blocks/contact_f.css">
     <title>Document</title>
 </head>
 
 <body>
     <div class="wrapper">
-        <header class="header">
-            <a href="#" class="logo">
-                <img src="img/logo.png" alt="Логотип банка" class="logo__img">
-            </a>
-            <nav class="menu">
-                <ul class="menu__list">
-                    <li class="menu__icon">
-                        <a href="#" class="menu__link menu__link--active">Главная</a>
-                    </li>
-                    <li class="menu__icon">
-                        <a href="#" class="menu__link">Услуги</a>
-                    </li>
-                    <li class="menu__icon">
-                        <a href="#" class="menu__link">Отзывы</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="contact">
-                <a href="tel:+79198981188" class="contact__link">88008981188</a>
-                <span class="contact__shedule">График работы</span>
-            </div>
-        </header>
-        <main class="main">
-            <div class="main__page">
-                <h1 class="main__offer">Не отказывай себе в желании быть первым</h1>
-                <p class="main__description">Банк с львиным характером</p>
-                <button class="more">
-                    Подробнее
-                </button>
-            </div>
-            <div class="products">
-                <span class="products__title">Лучшие предложения банка</span>
-                <ul class="products__list">
-                    <li class="products__item products__item--theme--gray">
-                        <div class="products__header">
-                            <img src="img/card_grey.png" alt="Карта серая картинка" class="products__icon">
-                        </div>
-                        <div class="products__content">
-                            <div class="products__content-title">Карта "Базовая"</div>
-                            <div class="products__features">
-                                <div class="products__features-block">
-                                    <div class="products__features-price">60 Р.-</div>
-                                    <div class="products__features-text">Обслуживание карты</div>
-                                </div>
-                                <div class="products__features-block">
-                                    <div class="products__features-price">До 4%</div>
-                                    <div class="products__featuers-text">Кэшбэк за любимые покупки</div>
-                                </div>
-                            </div>
-                            <div class="products__btn">
-                                <button class="more more__btn--black">
-                                    Подробнее
-                                </button>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="products__item products__item--theme--blue">
-                        <div class="products__header">
-                            <img src="img/card_blue.png" alt="Карта серая картинка" class="products__icon">
-                        </div>
-                        <div class="products__content">
-                            <div class="products__content-title">Карта "Оптима"</div>
-                            <div class="products__features">
-                                <div class="products__features-block">
-                                    <div class="products__features-price">90 Р.-</div>
-                                    <div class="products__features-text">Обслуживание карты</div>
-                                </div>
-                                <div class="products__features-block">
-                                    <div class="products__features-price">До 5%</div>
-                                    <div class="products__features-text">Кэшбэк за любимые покупки</div>
-                                </div>
-                            </div>
-                            <div class="products__btn">
-                                <button class="more more__btn--black">
-                                    Подробнее
-                                </button>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="products__item products__item--theme--gold">
-                        <div class="products__header">
-                            <img src="img/card_gold.png" alt="Карта серая картинка" class="products__icon">
-                        </div>
-                        <div class="products__content">
-                            <div class="products__content-title">Карта "Платинум"</div>
-                            <div class="products__features">
-                                <div class="products__features-block">
-                                    <div class="products__features-price">490 Р.-</div>
-                                    <div class="products__features-text">Обслуживание карты</div>
-                                </div>
-                                <div class="products__features-block">
-                                    <div class="products__features-price">До 6%</div>
-                                    <span class="products__features-text">Кэшбэк за любимые покупки</span>
-                                </div>
-                            </div>
-                            <div class="products__btn">
-                                <button class="more more__btn--black">
-                                    Подробнее
-                                </button>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="news">
-                <span class="news__title">Новости и акции</span>
-                <ul class="news__item">
-                    <li class="news__icon">
-                        <img src="img/phone.png" alt="" class="news__img">
-                        <div class="news__icon-content">
-                            <p class="news__text-one">Декабрь 2019</p>
-                            <span class="news__icon-text">Удобное мобильное приложение</span>
-                            <p class="news__text-two">Хороший банк, хорошие условия</p>
-                        </div class="news__icon-content">
-                    </li>
-                    <li class="news__icon">
-                        <img src="img/mountains.png" alt="" class="news__img">
-                        <div class="news__icon-content">
-                            <p class="news__text-one">Декабрь 2019</p>
-                            <span class="news__icon-text">Копите на поездку? Откройте счет</span>
-                            <p class="news__text-two">Хороший банк, хорошие условия. Откладывайте деньги! Наш банк самый
-                                лучший банк в мире!</p>
-                        </div class="news__icon-content">
-                    </li>
-                </ul>
-                <div class="pagination">
-                    <div class="pagination__display">Страница <span class="pagination__display-current">1</span>
-                        из <span class="pagination__display-all">7</span>
-                    </div>
-                    <ul class="pagination__list">
-                        <li class="pagination__item pagination__item--active">
-                            <a href="#" class="pagination__link">1</a>
+        <div class="container__main">
+            <header class="header">
+                <a href="#" class="logo">
+                    <img src="img/logo.png" alt="Логотип банка" class="logo__img">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__icon">
+                            <a href="#" class="menu__link menu__link--active">Главная</a>
                         </li>
-                        <li class="pagination__item">
-                            <a href="#" class="pagination__link">2</a>
+                        <li class="menu__icon">
+                            <a href="#" class="menu__link">Услуги</a>
                         </li>
-                        <li class="pagination__item">
-                            <a href="#" class="pagination__link">3</a>
-                        </li>
-                        <li class="pagination__item">
-                            <a href="#" class="pagination__link">4</a>
-                        </li>
-                        <li class="pagination__item">
-                            <a href="#" class="pagination__link">5</a>
-                        </li>
-                        <li class="pagination__item">
-                            <a href="#" class="pagination__link">6</a>
-                        </li>
-                        <li class="pagination__item">
-                            <a href="#" class="pagination__link">7</a>
+                        <li class="menu__icon">
+                            <a href="#" class="menu__link">Отзывы</a>
                         </li>
                     </ul>
+                </nav>
+                <div class="contact">
+                    <a href="tel:+79198981188" class="contact__link">88008981188</a>
+                    <span class="contact__shedule">График работы</span>
                 </div>
-            </div>
-            <div class="about">
-                <div class="about__content">
-                    <span class="about__title">О банке</span>
-                    <div class="about__text">
-                        <p>Сайт рыбатекст поможет дмзайнеру, верстальщику, вебмастеру
-                            сгенерировать несколько абзацев более менее осмысленного
-                            текста рыбы на русском языке, а начинающему оратору отточить
-                            навык публичных выступлений в домашних условиях.
-                        </p>
-                    </div>
+            </header>
+            <main class="main">
+                <div class="main__page">
+                    <h1 class="main__offer">Не отказывай себе в желании быть первым</h1>
+                    <p class="main__description">Банк с львиным характером</p>
                     <button class="more">
                         Подробнее
                     </button>
                 </div>
-            </div>
-        </main>
-        <footer class="footer-container">
-            <div class="container container__footer--content">
-                <div class="footer">
-                    <a href="#" class="logo">
-                        <img src="/img/logo.png" alt="" class="logo__img">
-                    </a>
-                    <nav class="menu">
-                        <ul class="menu__list">
-                            <li class="menu__icon">
-                                <a href="#" class="menu__link">Главная</a>
+                <div class="products">
+                    <span class="products__title">Лучшие предложения банка</span>
+                    <ul class="products__list">
+                        <li class="products__item products__item--theme--gray">
+                            <div class="products__header">
+                                <img src="img/card_grey.png" alt="Карта серая картинка" class="products__icon">
+                            </div>
+                            <div class="products__content">
+                                <div class="products__content-title">Карта "Базовая"</div>
+                                <div class="products__features">
+                                    <div class="products__features-block">
+                                        <div class="products__features-price">60 Р.-</div>
+                                        <div class="products__features-text">Обслуживание карты</div>
+                                    </div>
+                                    <div class="products__features-block">
+                                        <div class="products__features-price">До 4%</div>
+                                        <div class="products__featuers-text">Кэшбэк за любимые покупки</div>
+                                    </div>
+                                </div>
+                                <div class="products__btn">
+                                    <button class="more more__btn--black">
+                                        Подробнее
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="products__item products__item--theme--blue">
+                            <div class="products__header">
+                                <img src="img/card_blue.png" alt="Карта серая картинка" class="products__icon">
+                            </div>
+                            <div class="products__content">
+                                <div class="products__content-title">Карта "Оптима"</div>
+                                <div class="products__features">
+                                    <div class="products__features-block">
+                                        <div class="products__features-price">90 Р.-</div>
+                                        <div class="products__features-text">Обслуживание карты</div>
+                                    </div>
+                                    <div class="products__features-block">
+                                        <div class="products__features-price">До 5%</div>
+                                        <div class="products__features-text">Кэшбэк за любимые покупки</div>
+                                    </div>
+                                </div>
+                                <div class="products__btn">
+                                    <button class="more more__btn--black">
+                                        Подробнее
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="products__item products__item--theme--gold">
+                            <div class="products__header">
+                                <img src="img/card_gold.png" alt="Карта серая картинка" class="products__icon">
+                            </div>
+                            <div class="products__content">
+                                <div class="products__content-title">Карта "Платинум"</div>
+                                <div class="products__features">
+                                    <div class="products__features-block">
+                                        <div class="products__features-price">490 Р.-</div>
+                                        <div class="products__features-text">Обслуживание карты</div>
+                                    </div>
+                                    <div class="products__features-block">
+                                        <div class="products__features-price">До 6%</div>
+                                        <span class="products__features-text">Кэшбэк за любимые покупки</span>
+                                    </div>
+                                </div>
+                                <div class="products__btn">
+                                    <button class="more more__btn--black">
+                                        Подробнее
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="news">
+                    <span class="news__title">Новости и акции</span>
+                    <ul class="news__item">
+                        <li class="news__icon">
+                            <img src="img/phone.png" alt="" class="news__img">
+                            <div class="news__icon-content">
+                                <p class="news__text-one">Декабрь 2019</p>
+                                <span class="news__icon-text">Удобное мобильное приложение</span>
+                                <p class="news__text-two">Хороший банк, хорошие условия</p>
+                            </div class="news__icon-content">
+                        </li>
+                        <li class="news__icon">
+                            <img src="img/mountains.png" alt="" class="news__img">
+                            <div class="news__icon-content">
+                                <p class="news__text-one">Декабрь 2019</p>
+                                <span class="news__icon-text">Копите на поездку? Откройте счет</span>
+                                <p class="news__text-two">Хороший банк, хорошие условия. Откладывайте деньги! Наш банк
+                                    самый
+                                    лучший банк в мире!</p>
+                            </div class="news__icon-content">
+                        </li>
+                    </ul>
+                    <div class="pagination">
+                        <div class="pagination__display">Страница <span class="pagination__display-current">1</span>
+                            из <span class="pagination__display-all">7</span>
+                        </div>
+                        <ul class="pagination__list">
+                            <li class="pagination__item pagination__item--active">
+                                <a href="#" class="pagination__link">1</a>
                             </li>
-                            <li class="menu__icon">
-                                <a href="#" class="menu__link">Услуги</a>
+                            <li class="pagination__item">
+                                <a href="#" class="pagination__link">2</a>
                             </li>
-                            <li class="menu__icon">
-                                <a href="#" class="menu__link">Отзывы</a>
+                            <li class="pagination__item">
+                                <a href="#" class="pagination__link">3</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="#" class="pagination__link">4</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="#" class="pagination__link">5</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="#" class="pagination__link">6</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="#" class="pagination__link">7</a>
                             </li>
                         </ul>
-                    </nav>
-                    <div class="socials">
-                        <ul class="socials__list">
-                            <li class="socials__item socials__item--icon--instagram">
-                                <a href="#" class="socials__link">
-                                    <img src="img/in.png" alt="Иконка инстаграм" class="socials__icon">
-                                </a>
-                            </li>
-                            <li class="socials__item socials__item--icon--vk">
-                                <a href="#" class="socials__link">
-                                    <img src="img/vk.png" alt="Иконка вк" class="socials__icon">
-                                </a>
-                            </li>
-                            <li class="socials__item socials__item--icon--telegram">
-                                <a href="#" class="socials__link">
-                                    <img src="img/telegram.png" alt="Иконка телеграм" class="socials__icon">
-                                </a>
-                            </li>
-                            <li class="socials__item socials__item--icon--facebook">
-                                <a href="#" class="socials__link">
-                                    <img src="img/f.png" alt="Иконка фэйсбук" class="socials__icon">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="contact">
-                        <div class="contact__shedule">Бесплатный звонок по России</div>
-                        <a href="tel:+79198981188" class="contact__phone">88008981188</a>
                     </div>
                 </div>
-            </div>
-        </footer>
+                <div class="about">
+                    <div class="about__content">
+                        <span class="about__title">О банке</span>
+                        <div class="about__text">
+                            <p>Сайт рыбатекст поможет дмзайнеру, верстальщику, вебмастеру
+                                сгенерировать несколько абзацев более менее осмысленного
+                                текста рыбы на русском языке, а начинающему оратору отточить
+                                навык публичных выступлений в домашних условиях.
+                            </p>
+                        </div>
+                        <button class="more">
+                            Подробнее
+                        </button>
+                    </div>
+                </div>
+            </main>
+            <footer class="footer-container">
+                <div class="container container__footer--content">
+                    <div class="footer">
+                        <a href="#" class="logo">
+                            <img src="/img/logo.png" alt="" class="logo__img">
+                        </a>
+                        <nav class="menu">
+                            <ul class="menu__list">
+                                <li class="menu__icon">
+                                    <a href="#" class="menu__link">Главная</a>
+                                </li>
+                                <li class="menu__icon">
+                                    <a href="#" class="menu__link">Услуги</a>
+                                </li>
+                                <li class="menu__icon">
+                                    <a href="#" class="menu__link">Отзывы</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="socials">
+                            <ul class="socials__list">
+                                <li class="socials__item socials__item--icon--instagram">
+                                    <a href="#" class="socials__link">
+                                        <img src="img/in.png" alt="Иконка инстаграм" class="socials__icon">
+                                    </a>
+                                </li>
+                                <li class="socials__item socials__item--icon--vk">
+                                    <a href="#" class="socials__link">
+                                        <img src="img/vk.png" alt="Иконка вк" class="socials__icon">
+                                    </a>
+                                </li>
+                                <li class="socials__item socials__item--icon--telegram">
+                                    <a href="#" class="socials__link">
+                                        <img src="img/telegram.png" alt="Иконка телеграм" class="socials__icon">
+                                    </a>
+                                </li>
+                                <li class="socials__item socials__item--icon--facebook">
+                                    <a href="#" class="socials__link">
+                                        <img src="img/f.png" alt="Иконка фэйсбук" class="socials__icon">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="contact">
+                            <div class="contact__shedule">Бесплатный звонок по России</div>
+                            <a href="tel:+79198981188" class="contact__phone">88008981188</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div class="container__main">
     </div>
 </body>
 

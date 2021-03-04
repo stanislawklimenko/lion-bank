@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background: #29282D;
+    line-height: 1.42;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+}
+
+a {
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    font-style: normal;
+}
+
+p {
+    margin-top: 0;
+}
+
+.wrapper {
+    background: url("./img/lion-up.png") center top no-repeat, url("./img/lion-down.png") right bottom 307px no-repeat; 
+}
+
+.container__main {
+    margin: 0 auto;
+    width: 1150px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.header {
+    position: relative;
+    height: 120px;
+    margin-bottom: 100px;
+}
+
+.main__page {
+    width: 400px;
+    margin-bottom: 150px;
+}
+
+.footer {
+    height: 152px;
+    position: relative;
+}
+
+
+
+
+
+ 
+
+
+
+
+
