@@ -10,7 +10,6 @@ body {
     color: #fff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    
 }
 
 a {
@@ -26,13 +25,30 @@ p {
     margin-top: 0;
 }
 
-.wrapper {
-    background: url("./img/lion-up.png") center top no-repeat, url("./img/lion-down.png") right bottom 307px no-repeat; 
+body, html {
+    height: 100%;
 }
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    background: url("../../img/lion-up.png") center top no-repeat, url("../../img/lion-down.png") right bottom 307px no-repeat; 
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 1200px;
+}
+
 
 .container__main {
     margin: 0 auto;
     width: 1150px;
+}
+
+.container__main--hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 600px;
 }
 
 ul {
@@ -45,10 +61,22 @@ ul li {
 }
 
 .header {
-    position: relative;
-    height: 120px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
 }
+
+.header__col {
+    display:flex;
+    align-items: center;
+}
+
+.header__col--align--right {
+    justify-content: flex-end;
+}
+
+
 
 .main__page {
     width: 400px;
@@ -56,9 +84,28 @@ ul li {
 }
 
 .footer {
-    height: 152px;
-    position: relative;
+    height: 140px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
+
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+
+.footer__col--align--right {
+    align-items: flex-end;
+}
+
+.footer__container {
+    margin-top: auto;
+}
+
+
 
 
 
