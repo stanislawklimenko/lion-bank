@@ -1,0 +1,118 @@
+.products__header {
+    min-height: 162px;
+    margin-bottom: 28px;
+}
+
+.products__header:before {
+    content: "";
+    width: 284px;
+    height: 284px;
+    display: block;
+    border-radius: 50%;
+    top: -131px;
+    right: -109px;
+    transform: translate(150px, -140px);
+    background: #ccc;
+}
+
+.products__item--theme--gray .products__header:before {
+    background: #666666;
+}
+
+.products__item--theme--blue .products__header:before {
+    background: #556180;
+}
+
+.products__item--theme--gold .products__header:before {
+    background: #978455;
+}
+
+.products__icon {
+    left: 50%;
+    top: 50%;
+    transform: translate(160%,-268%);
+}
+
+.products__title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 200px;
+    margin-bottom: 45px;
+}
+
+.products__list {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.products__item {
+    min-height: 470px;
+    background: #fff;
+    border-radius: 4px;
+    width: calc(100% / 3 - 18px);
+    color: #000000;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.products__item:last-child{
+    margin-right: 0;
+}
+
+.products__content {
+    padding: 36px 30px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.products__content-title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.products__features {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.products__features-block {
+    margin-right: 25px;
+}
+
+.products__features-block:last-child {
+    margin-right: 0;
+}
+
+.products__features-price {
+    font-size: 36px;
+}
+
+.products__featuers-text {
+    color: #333;
+}
+
+.products__features-block {
+    margin-bottom: 50px;
+}
+
+.products__btn {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.more__btn--black {
+    background: black;
+    border: 0;
+
+}
+
+.more__btn--black:hover {
+    background: #D3A557;
+    box-shadow: 0 0 25px 0 rgba(223, 181, 109, .15);
+}

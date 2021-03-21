@@ -1,0 +1,37 @@
+.about {
+    display: flex;
+}
+
+.about:before {
+    content: "";
+    width: 488px;
+    height: 502px;
+    background: url("../../img/chess.png") center center / cover no-repeat;
+    display: block;
+}
+
+.about__content {
+    background: #202123;
+    padding: 80px 98px;
+    max-width: 780px;
+    margin-left: -133px;
+    margin-top: 108px;
+}
+
+.about__title {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.about__text {
+    margin-bottom: 42px;
+}
+
+.about__text p {
+    margin-bottom: 20px;
+}
+
+.about__text p:last-child {
+    margin-bottom: 0;
+}

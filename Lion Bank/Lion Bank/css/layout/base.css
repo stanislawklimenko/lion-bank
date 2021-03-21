@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background: #29282D;
+    line-height: 1.42;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    font-style: normal;
+}
+
+p {
+    margin-top: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    background: url("../../img/lion-up.png") center top no-repeat, url("../../img/lion-down.png") right bottom 307px no-repeat; 
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 1200px;
+}
+
+
+.container__main {
+    margin: 0 auto;
+    width: 1150px;
+}
+
+.container__main--hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 600px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.header {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+
+.header__col {
+    display:flex;
+    align-items: center;
+}
+
+.header__col--align--right {
+    justify-content: flex-end;
+}
+
+
+
+.main__page {
+    width: 400px;
+    margin-bottom: 150px;
+}
+
+.footer {
+    height: 140px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+
+.footer__col--align--right {
+    align-items: flex-end;
+}
+
+.footer__container {
+    margin-top: auto;
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+

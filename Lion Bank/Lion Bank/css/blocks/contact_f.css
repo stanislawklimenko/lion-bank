@@ -1,0 +1,18 @@
+.footer .contact__shedule {
+    color: #999;
+}
+
+.footer .contact {
+    font-size: 11px;
+    transform: translate(0px, -53px);
+}
+
+.contact__phone { 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 20px;
+
+}
+
+
